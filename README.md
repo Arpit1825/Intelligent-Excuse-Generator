@@ -1,4 +1,4 @@
-Intelligent Excuse Generator
+#Intelligent Excuse Generator
 
 Intelligent Excuse Generator is a Flask-based web application designed to generate meaningful and context-aware excuses based on user inputs. The application allows users to select a specific scenario such as college, office, or family, choose an appropriate tone including formal, casual, or urgent, and generate excuses in multiple languages. This makes the system flexible and suitable for a wide range of real-life use cases.
 The core logic of the application is built using a data-driven approach, where excuse templates are stored in structured JSON files. This design enables easy expansion and customization without modifying the application’s core logic. The backend is implemented using Python and Flask, ensuring clean routing and separation of concerns, while the frontend is developed using HTML, CSS, and JavaScript for a smooth and responsive user experience.
