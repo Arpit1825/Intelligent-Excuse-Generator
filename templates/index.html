@@ -1,0 +1,48 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Intelligent Excuse Generator</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+<script src="/static/js/script.js"></script>
+<body>
+  <div class="container">
+    <h1>Intelligent Excuse Generator</h1>
+    <div class="top-bar">
+  <span id="themeToggle">🌙 Dark Mode</span>
+</div>
+
+    <form method="POST" action="/generate">
+      <label>Scenario</label>
+      <select name="scenario" required>
+        <option value="">Select</option>
+        <option value="college">College</option>
+        <option value="office">Office</option>
+        <option value="family">Family</option>
+      </select>
+
+      <label>Tone</label>
+      <select name="tone" required>
+        <option value="">Select</option>
+        <option value="formal">Formal</option>
+        <option value="casual">Casual</option>
+        <option value="urgent">Urgent</option>
+      </select>
+<!-- templates/index.html (ADD inside form, before Reason input) -->
+<label>Language</label>
+<select name="language" id="language">
+  <option value="en">English</option>
+  <option value="hinglish">Hinglish</option>
+</select>
+
+      <label>Reason</label>
+      <input type="text" name="reason" placeholder="Enter reason" required />
+
+      <button type="submit">Generate Excuse</button>
+    </form>
+  </div>
+</body>
+</html>

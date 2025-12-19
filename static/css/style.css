@@ -1,0 +1,135 @@
+/* static/css/style.css */
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body.dark {
+  background: linear-gradient(135deg, #020617, #020617);
+}
+
+.container {
+  background: #ffffff;
+  width: 420px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+body.dark .container {
+  background: #020617;
+  color: #e5e7eb;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+#themeToggle {
+  cursor: pointer;
+  font-size: 14px;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+body.dark h1 {
+  color: #e5e7eb;
+}
+
+label {
+  font-weight: 600;
+  margin-top: 15px;
+  display: block;
+  color: #374151;
+}
+
+body.dark label {
+  color: #e5e7eb;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+body.dark select,
+body.dark input {
+  background: #020617;
+  color: #e5e7eb;
+  border: 1px solid #334155;
+}
+
+button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px;
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+.result-box {
+  background: #f9fafb;
+  border-left: 4px solid #2563eb;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+body.dark .result-box {
+  background: #020617;
+  border-left-color: #38bdf8;
+}
+
+.tone-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.tone-badge.formal {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.tone-badge.casual {
+  background: #10b981;
+  color: #ffffff;
+}
+
+.tone-badge.urgent {
+  background: #ef4444;
+  color: #ffffff;
+}

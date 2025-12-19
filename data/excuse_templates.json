@@ -1,0 +1,75 @@
+{
+  "en": {
+    "college": {
+      "formal": [
+        "I will not be able to attend today due to {reason}.",
+        "I am unable to join the class today because of {reason}."
+      ],
+      "casual": [
+        "Can’t come today, {reason}.",
+        "Missed class today because {reason}."
+      ],
+      "urgent": [
+        "I won’t be able to attend immediately due to {reason}."
+      ]
+    },
+    "office": {
+      "formal": [
+        "I am unavailable today due to {reason}.",
+        "I will be working remotely today because of {reason}."
+      ],
+      "casual": [
+        "Can’t join today due to {reason}."
+      ],
+      "urgent": [
+        "An urgent issue came up due to {reason}."
+      ]
+    },
+    "family": {
+      "formal": [
+        "I may not be available today due to {reason}."
+      ],
+      "casual": [
+        "Can’t manage today because of {reason}."
+      ],
+      "urgent": [
+        "Something urgent came up due to {reason}."
+      ]
+    }
+  },
+  "hinglish": {
+    "college": {
+      "formal": [
+        "Aaj main class attend nahi kar paunga kyunki {reason}."
+      ],
+      "casual": [
+        "Aaj nahi aa paunga, {reason}."
+      ],
+      "urgent": [
+        "Abhi turant attend karna possible nahi hai kyunki {reason}."
+      ]
+    },
+    "office": {
+      "formal": [
+        "Aaj main available nahi ho paunga kyunki {reason}."
+      ],
+      "casual": [
+        "Aaj join nahi kar paunga, {reason}."
+      ],
+      "urgent": [
+        "Ek urgent issue aa gaya hai, {reason}."
+      ]
+    },
+    "family": {
+      "formal": [
+        "Aaj available nahi ho paunga kyunki {reason}."
+      ],
+      "casual": [
+        "Aaj manage nahi ho payega, {reason}."
+      ],
+      "urgent": [
+        "Kuch urgent aa gaya hai, {reason}."
+      ]
+    }
+  }
+}

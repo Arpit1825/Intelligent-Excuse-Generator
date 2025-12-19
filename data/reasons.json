@@ -1,0 +1,6 @@
+{
+  "health": ["fever", "migraine", "doctor appointment"],
+  "family": ["family emergency", "relative visiting"],
+  "technical": ["internet issue", "system failure"],
+  "personal": ["personal work", "urgent errand"]
+}
